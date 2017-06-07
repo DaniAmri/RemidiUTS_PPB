@@ -27,6 +27,10 @@
         <activity
             android:name=".ActionSpinnerActivity"
             android:label="@string/title_activity_action_spinner"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NavigationDrawerActivity"
+            android:label="@string/title_activity_navigation_drawer"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

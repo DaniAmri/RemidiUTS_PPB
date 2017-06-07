@@ -30,6 +30,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, ActionSpinnerActivity.class));
             }
         });
+        findViewById(R.id.buttonNav4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, NavigationDrawerActivity.class));
+            }
+        });
 
 
     }
