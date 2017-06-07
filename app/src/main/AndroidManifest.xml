@@ -23,6 +23,10 @@
         <activity
             android:name=".ActionTabsActivity"
             android:label="@string/title_activity_action_tabs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActionSpinnerActivity"
+            android:label="@string/title_activity_action_spinner"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

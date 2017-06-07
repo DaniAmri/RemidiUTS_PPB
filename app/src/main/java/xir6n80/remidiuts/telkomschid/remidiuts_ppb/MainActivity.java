@@ -24,6 +24,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, ActionTabsActivity.class));
             }
         });
+        findViewById(R.id.buttonNav3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ActionSpinnerActivity.class));
+            }
+        });
 
 
     }
