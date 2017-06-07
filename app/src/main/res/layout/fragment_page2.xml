@@ -24,7 +24,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="NIS =  4832/1551.070" />
+        android:text="NIS =  1409.070" />
 
     <TextView
         android:layout_width="match_parent"
